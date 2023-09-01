@@ -1,0 +1,38 @@
+{
+  "ip": "92.98.90.189",
+  "success": true,
+  "type": "IPv4",
+  "continent": "Asia",
+  "continent_code": "AS",
+  "country": "United Arab Emirates",
+  "country_code": "AE",
+  "region": "Dubai",
+  "region_code": "DU",
+  "city": "Dubai",
+  "latitude": 25.2048493,
+  "longitude": 55.2707828,
+  "is_eu": false,
+  "postal": "39205",
+  "calling_code": "971",
+  "capital": "Abu Dhabi",
+  "borders": "OM,SA",
+  "flag": {
+    "img": "https://cdn.ipwhois.io/flags/ae.svg",
+    "emoji": "🇦🇪",
+    "emoji_unicode": "U+1F1E6 U+1F1EA"
+  },
+  "connection": {
+    "asn": 5384,
+    "org": "EMIRATES TELECOMMUNICATIONS GROUP COMPANY (ETISALAT GROUP) PJSC",
+    "isp": "EMIRATES TELECOMMUNICATIONS GROUP COMPANY (ETISALAT GROUP) PJSC",
+    "domain": "emirates.net.ae"
+  },
+  "timezone": {
+    "id": "Asia/Dubai",
+    "abbr": "+04",
+    "is_dst": false,
+    "offset": 14400,
+    "utc": "+04:00",
+    "current_time": "2023-08-25T20:32:22+04:00"
+  }
+}

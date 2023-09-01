@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+
+  <script src="script.js" defer></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+   crossorigin=""></script>
+
+  <title>IP Address Tracker</title>
+</head>
+<body>
+  <header>
+    <div class="bg-banner">
+      <picture>
+        <source media="(min-width: 450px)" srcset="images/pattern-bg-desktop.png">
+        <img src="images/pattern-bg-mobile.png" class="banner" alt="background banner">
+      </picture>
+      <div class="search-container">
+        <h1>IP Address Tracker</h1>
+        <form class="input-container">
+          <input type="tel" name="ip" id="search" placeholder="Search for any IP address or domain"><button type="submit" class="submit-btn"><img src="images/icon-arrow.svg" alt="arrow-right"></button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <section class="data-wrapper">
+    <div class="data-container">
+      <div class="data-elements">
+        <p class="data-header">IP ADDRESS</p>
+        <p class="data-content data-ip">---.---.---.--</p>
+      </div>
+      <div class="data-elements">
+        <p class="data-header">LOCATION</p>
+        <p class="data-content data-city">N/A, -- 0000</p>
+      </div>
+      <div class="data-elements">
+        <p class="data-header">TIMEZONE</p>
+        <p class="data-content data-timezone">UTC 00:00</p>
+      </div>
+      <div class="data-elements">
+        <p class="data-header">ISP</p>
+        <p class="data-content data-isp">N/A</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div id="map"></div>
+  </section>
+</body>
+</html>
